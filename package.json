@@ -1,8 +1,11 @@
 {
-  "dependencies": {
-    "faker": "^5.5.3"
+  "name": "teste-ebac-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open"
   },
-  "devDependencies": {
-    "@faker-js/faker": "^8.0.2"
-  }
+  "author": "",
+  "license": "ISC"
 }

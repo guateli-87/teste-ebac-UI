@@ -8,7 +8,7 @@ describe('Funcionalidade Pre-cadastro', () => {
     });
     
     it('Deve completar o Pre-cadastro com sucesso', () => {
-        cy.get('#reg_email').type(faker.internet.emai())
+        cy.get('#reg_email').type(faker.internet.email())
         cy.get('#reg_password').type('Teste_teste3000')
         cy.get(':nth-child(4) > .button').click()
         cy.get('.woocommerce-MyAccount-navigation-link--edit-account > a').click()
