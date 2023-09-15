@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "cypress": "^13.2.0",
     "faker": "^5.5.3"
+=======
+  "name": "teste-ebac-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open"
+>>>>>>> a106cad1581b7567d556b21709a0fd2e0aef066c
   },
-  "devDependencies": {
-    "@faker-js/faker": "^8.0.2"
-  }
+  "author": "",
+  "license": "ISC"
 }
